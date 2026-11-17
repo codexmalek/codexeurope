@@ -1,0 +1,352 @@
+[
+  {
+    "base": "acf-2023-01",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "acf-2023-02",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "acf-2023-03",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-04",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-05",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-06",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-07",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-08",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-09",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "acf-2023-10",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "acf-2023-11",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "acf-2023-12",
+    "event": "ACF 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "france-export-services-fair-01",
+    "event": "France Export Services Fair 2026",
+    "width": 1280,
+    "height": 1280,
+    "portrait": false
+  },
+  {
+    "base": "france-export-services-fair-02",
+    "event": "France Export Services Fair 2026",
+    "width": 1280,
+    "height": 1280,
+    "portrait": false
+  },
+  {
+    "base": "france-export-services-fair-03",
+    "event": "France Export Services Fair 2026",
+    "width": 1280,
+    "height": 1280,
+    "portrait": false
+  },
+  {
+    "base": "france-export-services-fair-04",
+    "event": "France Export Services Fair 2026",
+    "width": 1280,
+    "height": 1280,
+    "portrait": false
+  },
+  {
+    "base": "fintech-e-commerce-summit-2024-01",
+    "event": "Fintech & E-commerce Summit 2024",
+    "width": 1280,
+    "height": 720,
+    "portrait": false
+  },
+  {
+    "base": "fintech-e-commerce-summit-2024-02",
+    "event": "Fintech & E-commerce Summit 2024",
+    "width": 1280,
+    "height": 720,
+    "portrait": false
+  },
+  {
+    "base": "fintech-e-commerce-summit-2024-03",
+    "event": "Fintech & E-commerce Summit 2024",
+    "width": 1280,
+    "height": 720,
+    "portrait": false
+  },
+  {
+    "base": "fintech-e-commerce-summit-2024-04",
+    "event": "Fintech & E-commerce Summit 2024",
+    "width": 1280,
+    "height": 720,
+    "portrait": false
+  },
+  {
+    "base": "salon-professionnel-mai-2023-01",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-02",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-03",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-04",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "salon-professionnel-mai-2023-05",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "salon-professionnel-mai-2023-06",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-07",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-08",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "salon-professionnel-mai-2023-09",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-10",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-11",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-12",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-13",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 960,
+    "portrait": false
+  },
+  {
+    "base": "salon-professionnel-mai-2023-14",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-15",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "salon-professionnel-mai-2023-16",
+    "event": "Webexpo 2023",
+    "width": 1280,
+    "height": 1707,
+    "portrait": true
+  },
+  {
+    "base": "web-summit-2026-01",
+    "event": "Web Summit 2026",
+    "width": 578,
+    "height": 612,
+    "portrait": true
+  },
+  {
+    "base": "web-summit-2026-02",
+    "event": "Web Summit 2026",
+    "width": 577,
+    "height": 615,
+    "portrait": true
+  },
+  {
+    "base": "web-summit-2026-03",
+    "event": "Web Summit 2026",
+    "width": 570,
+    "height": 602,
+    "portrait": true
+  },
+  {
+    "base": "web-summit-2026-04",
+    "event": "Web Summit 2026",
+    "width": 572,
+    "height": 568,
+    "portrait": false
+  },
+  {
+    "base": "web-summit-2026-05",
+    "event": "Web Summit 2026",
+    "width": 563,
+    "height": 610,
+    "portrait": true
+  },
+  {
+    "base": "web-summit-2026-06",
+    "event": "Web Summit 2026",
+    "width": 615,
+    "height": 606,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-01",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-02",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-03",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-04",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-05",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-06",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-07",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  },
+  {
+    "base": "webexpo-france-2024-08",
+    "event": "Webexpo France 2024",
+    "width": 1080,
+    "height": 1080,
+    "portrait": false
+  }
+]

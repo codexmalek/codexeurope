@@ -1,0 +1,32 @@
+# Netlify / Cloudflare Pages
+/                     /fr                       301
+/index.php            /fr                       301
+/contact_us.php       /fr/contact               301
+/fr/                  /fr                       301
+/fr/services/         /fr/services              301
+/ar                    /fr                       301
+/ar/                   /fr                       301
+/ar/*                  /fr/:splat                301
+# Old service slugs → new pages. The full map is in .htaccess (the live host).
+/:lang/devis                         /:lang/contact                         301
+/devis                               /fr/contact                            301
+/:lang/terms                         /:lang/contact                         301
+/:lang/privacy                       /:lang/contact                         301
+/:lang/legal/*                       /:lang/contact                         301
+/terms                               /fr/contact                            301
+/privacy                             /fr/contact                            301
+/:lang/villes/marseille                  /:lang/blog/agence-web-marseille-oran-constantine  301
+/:lang/villes/oran                   /:lang/blog/agence-web-marseille-oran-constantine  301
+/:lang/villes/constantine            /:lang/blog/agence-web-marseille-oran-constantine  301
+/:lang/villes/:city                  /:lang/agence                          301
+/:lang/projects                      /:lang/realisations                    301
+/:lang/projects/skoda-factory        /:lang/realisations/skoda-imdes        301
+/:lang/projects/az-fulfillment       /:lang/realisations/az-fulfillment     301
+/:lang/projects/ondefoc              /:lang/realisations/ondefoc            301
+/:lang/projects/:slug                /:lang/realisations                    301
+/:lang/services/application-mobile-france      /:lang/services/developpement-application-mobile-france  301
+/:lang/services/developpement-logiciel-france  /:lang/services/logiciel-sur-mesure-france  301
+/:lang/services/agence-digitale-marseille           /:lang/agence                301
+/:lang/blog/agence-vs-freelance-france         /:lang/blog/meilleure-agence-developpement-france  301
+/:lang/blog/creer-application-mobile-france-guide  /:lang/blog/lancer-application-mobile-france  301
+/:lang/blog/creer-site-web-professionnel-marseille-2026 /:lang/blog/prix-site-web-france  301

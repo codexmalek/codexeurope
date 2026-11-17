@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="fr-FR" dir="ltr" id="top">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Créer une application de salle de sport | Codex</title>
+<meta name="description" content="Application de salle de sport : abonnements, réservation de cours, contrôle d’accès, programmes des coachs, boutique et back-office. Le guide de Codex.">
+<link rel="canonical" href="https://codexeurope.com/fr/blog/application-fitness">
+<link rel="alternate" hreflang="fr-FR" href="https://codexeurope.com/fr/blog/application-fitness">
+<link rel="alternate" hreflang="en" href="https://codexeurope.com/en/blog/application-fitness">
+<link rel="alternate" hreflang="x-default" href="https://codexeurope.com/fr/blog/application-fitness">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0b0b0c">
+<meta name="geo.region" content="FR-13">
+<meta name="geo.placename" content="Marseille">
+<meta name="geo.position" content="43.2964;5.374">
+<meta name="ICBM" content="43.2964, 5.374">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-10-26">
+<meta property="article:section" content="Mobile">
+<meta property="og:locale" content="fr_FR"><meta property="og:locale:alternate" content="en_US">
+<meta property="og:site_name" content="Codex">
+<meta property="og:title" content="Créer une application de salle de sport | Codex">
+<meta property="og:description" content="Application de salle de sport : abonnements, réservation de cours, contrôle d’accès, programmes des coachs, boutique et back-office. Le guide de Codex.">
+<meta property="og:url" content="https://codexeurope.com/fr/blog/application-fitness">
+<meta property="og:image" content="https://codexeurope.com/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css?v=QD5gRIyX">
+<meta name="color-scheme" content="dark light">
+<script>(function(d){d.classList.add('js');var m;try{m=localStorage.getItem('cx-mode');if(sessionStorage.getItem('cx-loaded'))d.classList.add('seen');if(sessionStorage.getItem('cx-pt'))d.classList.add('pt-in')}catch(e){}if(!m)m='dark';d.dataset.mode=m})(document.documentElement)</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["ProfessionalService","Organization"],"@id":"https://codexeurope.com/#org","name":"Codex","alternateName":["Codex Europe","Groupe Codex","SARL Groupe Codex"],"legalName":"SARL Groupe Codex","url":"https://codexeurope.com/fr","logo":{"@type":"ImageObject","url":"https://codexeurope.com/assets/img/codex-logo.png","width":512,"height":512},"image":"https://codexeurope.com/assets/img/og.jpg","description":"Codex est un studio logiciel et une agence IT indépendante basée à Marseille, fondée en 2014 : logiciels sur mesure, sites web, applications mobiles, cloud, data et cybersécurité. SARL Groupe Codex est reconnue n° 1 en France, n° 2 en Afrique et n° 1 dans le CCG.","foundingDate":"2014","email":"contact@codexeurope.com","telephone":"+33605825051","priceRange":"$$","address":{"@type":"PostalAddress","streetAddress":"Rue de la République","addressLocality":"Marseille","addressRegion":"France","postalCode":"13002","addressCountry":"FR"},"geo":{"@type":"GeoCoordinates","latitude":43.2964,"longitude":5.374},"areaServed":[{"@type":"Country","name":"France"},{"@type":"City","name":"Marseille"},{"@type":"Country","name":"Qatar"},{"@type":"Country","name":"France"},{"@type":"Place","name":"Europe"}],"location":[{"@type":"Place","name":"Codex Marseille","address":{"@type":"PostalAddress","streetAddress":"Rue de la République","addressLocality":"Marseille","addressRegion":"France","postalCode":"13002","addressCountry":"FR"}},{"@type":"Place","name":"Codex Doha","telephone":"+97450665151","address":{"@type":"PostalAddress","streetAddress":"Building No. 157, Street No. 301, Zone 69","postOfficeBoxNumber":"8388","addressLocality":"Doha","addressCountry":"QA"}}],"numberOfEmployees":{"@type":"QuantitativeValue","minValue":15},"knowsLanguage":["fr","en"],"knowsAbout":["Logiciel sur mesure","Création de site web","Application mobile","Cloud & DevOps","Data & Analytics","Cybersécurité","Marketing digital & SEO","Design graphique & UI/UX","Développement web","Flutter","SEO","ERP","SaaS"],"contactPoint":[{"@type":"ContactPoint","telephone":"+33605825051","email":"contact@codexeurope.com","contactType":"sales","areaServed":"FR","availableLanguage":["French","Arabic","English"]},{"@type":"ContactPoint","telephone":"+97450665151","email":"contact@codexeurope.com","contactType":"sales","areaServed":"QA","availableLanguage":["French","Arabic","English"]}],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Services Codex","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Logiciel sur mesure","url":"https://codexeurope.com/fr/services/logiciel-sur-mesure-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Création de site web","url":"https://codexeurope.com/fr/services/creation-site-web-marseille"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Application mobile","url":"https://codexeurope.com/fr/services/developpement-application-mobile-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Cloud & DevOps","url":"https://codexeurope.com/fr/services/cloud-devops-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Data & Analytics","url":"https://codexeurope.com/fr/services/data-analytics-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Cybersécurité","url":"https://codexeurope.com/fr/services/cybersecurite-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Marketing digital & SEO","url":"https://codexeurope.com/fr/services/marketing-digital-seo-france"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Design graphique & UI/UX","url":"https://codexeurope.com/fr/services/design-ui-ux-france"}}]},"sameAs":["https://www.facebook.com/CodexEurope","https://www.instagram.com/codex_europe/","https://www.sortlist.com/agency/codex","https://techbehemoths.com/company/codex-algeria","https://clutch.co/profile/codex-4","https://themanifest.com/company/codex-4","https://www.g2.com/products/codex-algeria/reviews","https://www.crunchbase.com/organization/codex-ef58","https://cloud.google.com/find-a-partner/partner/sarl-groupe-codex","https://ensun.io/company/codex-6af1af8b4b49fbf27bde1b3b-managed","https://elioplus.com/profiles/channel-partners/194499/codex","https://www.lafabriquedunet.com/fr/agences/agence/codex","https://www.designrush.com/agency/profile/codex","https://www.goodfirms.co/company/codex-algeria"]},{"@type":"WebSite","@id":"https://codexeurope.com/#website","url":"https://codexeurope.com/fr","name":"Codex","inLanguage":"fr-FR","publisher":{"@id":"https://codexeurope.com/#org"}},{"@type":"WebPage","@id":"https://codexeurope.com/fr/blog/application-fitness#webpage","url":"https://codexeurope.com/fr/blog/application-fitness","name":"Créer une application de salle de sport | Codex","description":"Application de salle de sport : abonnements, réservation de cours, contrôle d’accès, programmes des coachs, boutique et back-office. Le guide de Codex.","inLanguage":"fr-FR","isPartOf":{"@id":"https://codexeurope.com/#website"},"about":{"@id":"https://codexeurope.com/#org"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://codexeurope.com/fr"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://codexeurope.com/fr/blog"},{"@type":"ListItem","position":3,"name":"Créer une application de salle de sport : le guide complet","item":"https://codexeurope.com/fr/blog/application-fitness"}]},{"@type":"BlogPosting","@id":"https://codexeurope.com/fr/blog/application-fitness#article","headline":"Créer une application de salle de sport : le guide complet","description":"Application de salle de sport : abonnements, réservation de cours, contrôle d’accès, programmes des coachs, boutique et back-office. Le guide de Codex.","datePublished":"2026-10-26","dateModified":"2026-10-26","inLanguage":"fr-FR","articleSection":"Mobile","wordCount":1535,"url":"https://codexeurope.com/fr/blog/application-fitness","mainEntityOfPage":"https://codexeurope.com/fr/blog/application-fitness","image":"https://codexeurope.com/assets/img/og.jpg","author":{"@id":"https://codexeurope.com/#org"},"publisher":{"@id":"https://codexeurope.com/#org"},"about":{"@type":"Thing","name":"Mobile"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment gérer la capacité des cours collectifs ?","acceptedAnswer":{"@type":"Answer","text":"Chaque cours a un nombre de places défini dans le back-office. Une fois complet, les adhérents passent en liste d’attente et récupèrent les places libérées par une annulation."}},{"@type":"Question","name":"Le QR code à l’entrée est-il indispensable ?","acceptedAnswer":{"@type":"Answer","text":"Non, c’est une option. Il devient utile quand l’affluence rend le contrôle manuel difficile, et il doit prévoir un mode de secours si la connexion tombe."}},{"@type":"Question","name":"Peut-on vendre des produits dans l’application ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Une boutique intégrée présente les compléments et l’équipement par collection, avec retrait à l’accueil ou livraison, et son stock se gère dans le back-office."}},{"@type":"Question","name":"Combien coûte une application de salle de sport ?","acceptedAnswer":{"@type":"Answer","text":"Le prix dépend des formules d’abonnement, de la réservation, du contrôle d’accès, de la boutique et du nombre de salles. Codex le précise dans un devis détaillé après l’atelier de cadrage."}},{"@type":"Question","name":"Codex peut-il développer ce type d’application ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Codex a réalisé l’application LEVVA GYM, avec sa boutique intégrée. Pour votre salle, les abonnements, le planning et le back-office se conçoivent sur mesure, avec un code qui reste à votre nom."}}]}]}</script>
+</head>
+<body class="">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="mk" viewBox="-4 0 933 957"><path fill-rule="evenodd" d="M 74.500 0.683 C 42.079 3.760, 15.319 17.417, 6.276 35.500 C -2.954 53.958, -0.920 79.525, 11.806 105 C 14.416 110.225, 56.179 175.925, 104.613 251 C 244.028 467.102, 249.336 475.387, 249.758 477.554 C 250.036 478.979, 214.426 534.967, 133.367 660.554 C 69.132 760.074, 14.696 845.207, 12.397 849.737 C -2.584 879.271, -3.590 907.558, 9.655 926.789 C 18.791 940.055, 40.260 950.827, 64.996 954.555 C 80.171 956.843, 296.119 956.677, 306.303 954.369 C 320.492 951.155, 333.632 943.238, 347.069 929.806 C 355.193 921.686, 353.588 923.982, 427.469 814.759 C 447.802 784.699, 464.511 760.194, 464.599 760.302 C 464.688 760.411, 489.941 798.309, 520.718 844.520 C 582.617 937.458, 581.610 936.153, 597.369 943.909 C 606.401 948.354, 619.305 952.345, 631.534 954.478 C 644.163 956.680, 865.493 956.822, 875.580 954.634 C 920.545 944.882, 928.668 909.235, 899.197 851 C 894.882 842.475, 882.267 820.755, 871.164 802.733 C 847.375 764.122, 774.359 644.976, 740.489 589.500 C 707.198 534.972, 701.665 528.425, 675.670 512.801 C 632.659 486.951, 576.986 495.659, 536.021 534.642 C 511.904 557.593, 453.536 639.241, 348.289 797.250 L 293.837 879 185.369 879 C 95.193 879, 77.035 878.775, 77.700 877.665 C 78.140 876.931, 137.785 786.735, 210.244 677.230 L 341.988 478.129 209.524 277.814 L 77.061 77.500 184.707 77.245 C 269.760 77.044, 292.722 77.254, 294.108 78.245 C 295.073 78.935, 323.741 121.350, 357.814 172.500 C 486.181 365.203, 519.879 410.903, 550 433.135 C 598.802 469.155, 657.526 466.195, 699.838 425.583 C 710.033 415.797, 712.479 412.107, 760.194 334.500 C 903.808 100.915, 903.363 101.666, 909.809 82.417 C 924.768 37.742, 915.068 12.573, 878.942 2.327 C 872.874 0.606, 865.888 0.500, 758.500 0.500 C 636.427 0.500, 638.029 0.441, 617.500 5.653 C 592.405 12.023, 581.085 20.808, 563.709 47.396 C 542.702 79.540, 465.008 196, 464.570 196 C 464.330 196, 441.309 162.138, 413.412 120.750 C 385.514 79.362, 360.873 43.025, 358.652 40 C 345.722 22.384, 328.123 8.811, 310.500 2.866 L 303.500 0.505 191 0.404 C 129.125 0.349, 76.700 0.475, 74.500 0.683"/></symbol></svg>
+<div class="loader" data-loader aria-hidden="true">
+  <div class="loader__mark"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></div>
+  <div class="loader__count"><span data-count>0</span></div>
+  <div class="loader__label">Codex — Studio logiciel, Marseille</div>
+</div>
+
+<div class="rail rail--left" data-rail>
+  <button class="tswitch" type="button" data-mode-toggle aria-label="Changer de thème (clair / sombre)"><span class="tswitch__knob"></span><svg class="ts-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="ts-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <a class="rail__text" href="#top" data-top>Haut de page</a>
+  <span class="rail__line" aria-hidden="true"><i data-rail-progress></i></span>
+</div>
+<div class="rail rail--right" data-rail>
+  <ul class="rail__social" aria-label="Codex sur les réseaux sociaux">
+    <li><a href="https://www.facebook.com/CodexEurope" target="_blank" rel="noopener" aria-label="Codex sur Facebook" data-magnetic><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.9v3h2.6V21h3z"/></svg></a></li><li><a href="https://www.instagram.com/codex_europe/" target="_blank" rel="noopener" aria-label="Codex sur Instagram" data-magnetic><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a></li>
+    <li><a href="https://wa.me/33605825051" target="_blank" rel="noopener" aria-label="Écrire à Codex sur WhatsApp" data-magnetic><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.1 7.9c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .6.4l.8 1.9c.1.2.1.4 0 .6l-.6.8c-.1.2-.1.3 0 .5.6 1.1 1.5 2 2.6 2.6.2.1.4.1.5 0l.8-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.3.3.3.5 0 .5-.2 1.4-1.1 1.9-.8.4-1.8.5-3.6-.3-2.2-1-3.6-3-3.9-3.4-.3-.4-1-1.5-1-2.8 0-1.2.6-1.8.9-2.2z" fill="currentColor"/></svg></a></li>
+  </ul>
+  <span class="rail__line" aria-hidden="true"></span>
+  <span class="rail__text">Suivez-nous</span>
+</div>
+<div class="fabs" data-fabs>
+  <a class="fab-cta" href="/fr/contact" data-fab-cta><span class="fab-cta__dot"></span><span>Parlons de votre projet</span></a>
+  <a class="fab-wa" href="https://wa.me/33605825051" target="_blank" rel="noopener" aria-label="Discuter avec Codex sur WhatsApp"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.1 7.9c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .6.4l.8 1.9c.1.2.1.4 0 .6l-.6.8c-.1.2-.1.3 0 .5.6 1.1 1.5 2 2.6 2.6.2.1.4.1.5 0l.8-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.3.3.3.5 0 .5-.2 1.4-1.1 1.9-.8.4-1.8.5-3.6-.3-2.2-1-3.6-3-3.9-3.4-.3-.4-1-1.5-1-2.8 0-1.2.6-1.8.9-2.2z" fill="currentColor"/></svg></a>
+</div>
+<div class="pt" data-pt aria-hidden="true"><div class="pt__mark"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></div></div>
+<div class="progress" data-progress aria-hidden="true"></div>
+<div class="cursor" data-cursor-el aria-hidden="true"><span></span></div>
+<div class="ring" data-ring aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="nav" data-nav>
+  <div class="nav__in">
+    <a class="logo" href="/fr" aria-label="Codex — accueil"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg><span class="logo__w" aria-hidden="true"><b style="--i:0">c</b><b style="--i:1">o</b><b style="--i:2">d</b><b style="--i:3">e</b><b style="--i:4">x</b></span></a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="/fr/services"><span data-hover="Services">Services</span></a><a href="/fr/realisations"><span data-hover="Réalisations">Réalisations</span></a><a href="/fr/agence"><span data-hover="Agence">Agence</span></a><a href="/fr/evenements"><span data-hover="Événements">Événements</span></a><a href="/fr/blog" aria-current="page"><span data-hover="Blog">Blog</span></a><a href="/fr/contact"><span data-hover="Contact">Contact</span></a>
+    </nav>
+    <div class="langs" role="group" aria-label="Langue"><a href="/fr/blog/application-fitness" hreflang="fr-FR" lang="fr-FR" title="Français" aria-current="true">FR</a><a href="/en/blog/application-fitness" hreflang="en" lang="en" title="English">EN</a></div>
+    <button class="mode" type="button" data-mode-toggle aria-label="Changer de thème (clair / sombre)">
+      <svg class="mode__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="mode__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <a class="btn btn--sm btn--accent nav__cta" href="/fr/contact" data-magnetic><span>Démarrer un projet</span></a>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu" data-burger><i></i><i></i></button>
+  </div>
+</header>
+<div class="menu" id="menu" data-menu aria-hidden="true">
+  <nav class="menu__links" aria-label="Menu mobile">
+    <a href="/fr"><small>01</small>Accueil</a><a href="/fr/services"><small>02</small>Services</a><a href="/fr/realisations"><small>03</small>Réalisations</a><a href="/fr/agence"><small>04</small>Agence</a><a href="/fr/evenements"><small>05</small>Événements</a><a href="/fr/blog"><small>06</small>Blog</a><a href="/fr/contact"><small>07</small>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <div class="langs langs--menu" role="group" aria-label="Langue"><a href="/fr/blog/application-fitness" hreflang="fr-FR" lang="fr-FR" title="Français" aria-current="true">FR</a><a href="/en/blog/application-fitness" hreflang="en" lang="en" title="English">EN</a></div>
+    <a href="mailto:contact@codexeurope.com">contact@codexeurope.com</a>
+    <a href="tel:+33605825051">+33 6 05 82 50 51</a>
+  </div>
+</div>
+<main id="main">
+
+<section class="phero post-hero" data-theme="dark">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Fil d’Ariane"><a href="/fr">Accueil</a><span>/</span><a href="/fr/blog">Blog</a><span>/</span><span aria-current="page">Mobile</span></nav>
+    <div data-fade><span class="bmeta"><span class="bchip">Mobile</span><time datetime="2026-10-26">26 octobre 2026</time><span>7 min</span></span></div>
+    <h1 class="post__title"><span class="split" data-split>Créer une application de salle de sport : le guide complet</span></h1>
+    <p class="phero__lead" data-fade>Une application de salle de sport relie les adhérents, les coachs et la direction autour des abonnements, du planning et de la progression. Avant de la développer, il faut cadrer les formules, la capacité des cours, le contrôle d’accès, la boutique et le back-office.</p>
+    <div class="post__by" data-fade><span class="post__ava"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></span><span><strong>L’équipe Codex</strong><small>Studio logiciel, Marseille · depuis 2014</small></span></div>
+  </div>
+</section>
+<div class="wrap post__cover"><div class="media-reveal"><div class="bcover bcover--mobile bcover--wide" aria-hidden="true"><span class="bcover__grid"></span><span class="bcover__n">25</span><span class="bcover__illo"><svg class="illo" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="88" y="12" width="64" height="136" rx="12"/>
+    <rect x="110" y="18" width="20" height="5" rx="2.5"/>
+    <rect x="98" y="34" width="44" height="30" rx="4" opacity=".6"/>
+    <path d="M98 74h44M98 82h30M98 96h44M98 104h24" opacity=".45"/>
+    <circle class="a" cx="134" cy="128" r="8"/>
+    <rect x="40" y="40" width="34" height="58" rx="8" opacity=".25"/>
+    <rect x="166" y="54" width="34" height="58" rx="8" opacity=".25"/></svg></span><span class="bcover__mk"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></span></div></div></div>
+<div class="section wrap post">
+  <aside class="post__aside">
+    <nav class="post__toc" aria-label="Sommaire" data-toc>
+      <p class="post__toch"><span>Sommaire</span><span class="post__pct" data-read-pct>0 %</span></p>
+      <span class="post__bar" aria-hidden="true"><i data-read-bar></i></span>
+      <ol><li><a href="#a-qui-s-adresse-une-application-de-salle-de-sport"><span>01</span>À qui s’adresse une application de salle de sport ?</a></li><li><a href="#les-fonctionnalites-essentielles"><span>02</span>Les fonctionnalités essentielles</a></li><li><a href="#espace-adherent-et-espace-coach"><span>03</span>Espace adhérent et espace coach</a></li><li><a href="#le-back-office-du-gerant"><span>04</span>Le back-office du gérant</a></li><li><a href="#paiement-et-specificites-locales"><span>05</span>Paiement et spécificités locales</a></li><li><a href="#native-ou-multiplateforme"><span>06</span>Native ou multiplateforme ?</a></li><li><a href="#une-premiere-version-utile-puis-des-evolutions"><span>07</span>Une première version utile, puis des évolutions</a></li><li><a href="#les-erreurs-a-eviter"><span>08</span>Les erreurs à éviter</a></li><li><a href="#ce-qui-fait-varier-le-budget"><span>09</span>Ce qui fait varier le budget</a></li><li><a href="#les-etapes-avec-codex"><span>10</span>Les étapes avec Codex</a></li><li><a href="#construire-ce-produit-avec-codex"><span>11</span>Construire ce produit avec Codex</a></li></ol>
+    </nav>
+    <div class="post__share">
+      <p class="post__toch">Partager</p>
+      <div class="post__shareb">
+        <button type="button" data-copy="https://codexeurope.com/fr/blog/application-fitness" aria-label="Copier le lien de l’article"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg><span data-copy-label>Copier le lien</span></button>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcodexeurope.com%2Ffr%2Fblog%2Fapplication-fitness" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 9h3v10H5zM6.5 4.5a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10 9h2.9v1.4c.4-.8 1.4-1.6 2.9-1.6 3 0 3.6 2 3.6 4.6V19h-3v-4.9c0-1.2 0-2.6-1.6-2.6s-1.8 1.2-1.8 2.5v5H10z"/></svg></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodexeurope.com%2Ffr%2Fblog%2Fapplication-fitness" target="_blank" rel="noopener" aria-label="Partager sur Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.9v3h2.6V21h3z"/></svg></a>
+        <a href="https://wa.me/?text=Cr%C3%A9er%20une%20application%20de%20salle%20de%20sport%20%3A%20le%20guide%20complet%20https%3A%2F%2Fcodexeurope.com%2Ffr%2Fblog%2Fapplication-fitness" target="_blank" rel="noopener" aria-label="Partager sur WhatsApp"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.1 7.9c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .6.4l.8 1.9c.1.2.1.4 0 .6l-.6.8c-.1.2-.1.3 0 .5.6 1.1 1.5 2 2.6 2.6.2.1.4.1.5 0l.8-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.3.3.3.5 0 .5-.2 1.4-1.1 1.9-.8.4-1.8.5-3.6-.3-2.2-1-3.6-3-3.9-3.4-.3-.4-1-1.5-1-2.8 0-1.2.6-1.8.9-2.2z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </aside>
+  <article class="post__body" data-post>
+    <div class="post__brief">
+      <p class="eyebrow"><span class="dot"></span>En bref</p>
+      <ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Une application de salle de sport est d’abord un système d’abonnements et de réservations : l’écran d’accueil n’en est que la vitrine.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>La capacité des cours, les annulations et la validité des abonnements suivent des règles écrites avant le développement.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>L’adhérent et le coach ont chacun leur espace et leurs droits, alimentés par le même back-office.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Codex a réalisé l’application LEVVA GYM et sa boutique intégrée, et développe ce type de produit avec un code qui reste à votre nom.</span></li></ul>
+    </div>
+    <p>Dans bien des salles de sport, les abonnements se suivent encore sur un registre ou un tableur, les cours collectifs se réservent par message et les programmes des coachs circulent en photo. Tout fonctionne tant que la salle reste petite ; ensuite, les oublis, les échéances ratées et les cours surchargés s’accumulent.</p>
+    <p>Une application de salle de sport réunit ces usages. L’adhérent renouvelle son abonnement, réserve sa place et suit ses progrès ; le coach publie ses programmes ; le gérant voit qui est inscrit, qui vient et ce qui se vend. Voici ce qu’il faut prévoir pour la construire.</p>
+    <h2 class="post__h2" id="a-qui-s-adresse-une-application-de-salle-de-sport"><span class="post__hn">01</span>À qui s’adresse une application de salle de sport ?</h2>
+    <p>Chaque profil a son espace et ses droits. Les distinguer dès le départ évite qu’un adhérent voie les données d’un autre, ou qu’un coach modifie les tarifs.</p>
+    <ul class="post__ul"><li><strong>L’adhérent</strong> : il gère son abonnement, réserve ses cours, entre dans la salle et suit son programme depuis son téléphone.</li><li><strong>Le coach</strong> : il anime les cours, prépare les programmes de ses adhérents et suit leur progression.</li><li><strong>Le gérant</strong> : il fixe les formules et les tarifs, organise le planning, suit la fréquentation et les ventes.</li><li><strong>L’équipe d’accueil</strong>, si la salle en a une : elle vérifie les entrées, inscrit les nouveaux adhérents et encaisse sur place.</li></ul>
+    <h2 class="post__h2" id="les-fonctionnalites-essentielles"><span class="post__hn">02</span>Les fonctionnalités essentielles</h2>
+    <ol class="post__ol"><li><span>01</span><div><strong>Abonnement et renouvellement.</strong> Formules mensuelles, trimestrielles ou annuelles, séances à l’unité ou carnets : l’adhérent voit son échéance et renouvelle depuis l’application. Une suspension couvre les absences prolongées.</div></li><li><span>02</span><div><strong>Planning et réservation des cours.</strong> Chaque cours a une capacité. Quand il est complet, une liste d’attente prend le relais, et une règle d’annulation libère les places à temps.</div></li><li><span>03</span><div><strong>Contrôle d’accès.</strong> En option, un QR code affiché sur le téléphone est scanné à l’entrée. Il n’est valide que si l’abonnement l’est.</div></li><li><span>04</span><div><strong>Programmes du coach.</strong> Des séances composées d’exercices, avec séries, répétitions, temps de repos et vidéos de démonstration.</div></li><li><span>05</span><div><strong>Suivi de progression.</strong> Poids, mensurations, charges et présence : l’adhérent mesure ses progrès, le coach ajuste le programme.</div></li><li><span>06</span><div><strong>Boutique.</strong> Compléments, accessoires et vêtements, à retirer à l’accueil ou à se faire livrer.</div></li><li><span>07</span><div><strong>Notifications.</strong> Rappel de cours, cours annulé, abonnement bientôt échu, nouveauté en boutique.</div></li><li><span>08</span><div><strong>Paiements.</strong> En ligne ou à l’accueil, avec l’historique et les reçus dans l’espace de l’adhérent.</div></li></ol>
+    <h2 class="post__h2" id="espace-adherent-et-espace-coach"><span class="post__hn">03</span>Espace adhérent et espace coach</h2>
+    <p>Le même produit sert deux publics très différents. L’adhérent veut aller vite : son prochain cours, son QR code, sa séance du jour. Le coach a besoin d’un outil de travail : la liste de ses inscrits, l’historique de chacun et un éditeur de programmes rapide entre deux cours.</p>
+    <p>Les deux espaces peuvent vivre dans la même application, avec des écrans différents selon le compte, ou dans deux applications séparées. La première option est plus simple à maintenir ; la seconde se justifie quand le travail des coachs s’enrichit.</p>
+    <h2 class="post__h2" id="le-back-office-du-gerant"><span class="post__hn">04</span>Le back-office du gérant</h2>
+    <p>C’est l’outil de pilotage de la salle. Il remplace le registre et le tableur, et donne une vue fiable de l’activité :</p>
+    <ul class="post__ul"><li>les adhérents : fiches, abonnements en cours, échéances et présence ;</li><li>les formules : tarifs, durées, promotions et conditions de suspension ;</li><li>le planning : cours, salles, capacités et coachs affectés ;</li><li>les coachs : comptes, cours animés et adhérents suivis ;</li><li>la boutique : produits, stock et commandes ;</li><li>les statistiques : fréquentation par créneau, renouvellements et ventes.</li></ul>
+    <p>Pour la partie boutique, Codex a réalisé l’application <a href="/en/realisations/levva-gym">LEVVA GYM</a>, avec une boutique intégrée, des collections et des produits mis en avant.</p>
+    <h2 class="post__h2" id="paiement-et-specificites-locales"><span class="post__hn">05</span>Paiement et spécificités locales</h2>
+    <p>Les habitudes de paiement pèsent sur la conception, en particulier pour les renouvellements.</p>
+    <ul class="post__ul"><li>en France, les espèces à l’accueil restent courantes, comme le paiement à la livraison pour la boutique ; le paiement en ligne par CIB ou Edahabia passe par un prestataire agréé ;</li><li>ailleurs, un prestataire de paiement local agréé gère les cartes et, si besoin, le renouvellement automatique ;</li><li>quand l’adhérent paie à l’accueil, l’abonnement est activé dans le back-office et l’application se met à jour aussitôt ;</li><li>l’interface existe en français et en arabe, avec une mise en page de droite à gauche, et en anglais selon la clientèle.</li></ul>
+    <h2 class="post__h2" id="native-ou-multiplateforme"><span class="post__hn">06</span>Native ou multiplateforme ?</h2>
+    <p>Les adhérents utilisent Android comme iOS : une approche multiplateforme comme Flutter ou React Native couvre les deux avec une base commune, tandis que le back-office reste une application web. L’article <a href="/en/blog/application-mobile-native-ou-multiplateforme">application native ou multiplateforme</a> détaille les critères, et <a href="/en/services/developpement-application-mobile-france">le service de développement mobile de Codex</a> présente la démarche.</p>
+    <h2 class="post__h2" id="une-premiere-version-utile-puis-des-evolutions"><span class="post__hn">07</span>Une première version utile, puis des évolutions</h2>
+    <p>Mieux vaut un abonnement et un planning qui marchent parfaitement qu’une application qui fait tout à moitié. Une première version raisonnable comprend :</p>
+    <ul class="post__ul"><li>les abonnements, leurs échéances et le renouvellement ;</li><li>le planning et la réservation des cours avec capacité ;</li><li>l’espace coach pour les programmes ;</li><li>le back-office des adhérents, des formules et du planning.</li></ul>
+    <p>Viennent ensuite le QR code à l’entrée, la boutique, un suivi de progression plus fin, des défis entre adhérents ou la gestion de plusieurs salles.</p>
+    <h2 class="post__h2" id="les-erreurs-a-eviter"><span class="post__hn">08</span>Les erreurs à éviter</h2>
+    <ul class="post__ul"><li>lancer la réservation sans règle d’annulation : les places bloquées par des absents découragent les autres ;</li><li>installer un contrôle d’accès sans prévoir une coupure de connexion à l’entrée ;</li><li>donner aux coachs un outil plus lent que le papier ;</li><li>oublier, dans le parcours de renouvellement, les adhérents qui paient à l’accueil ;</li><li>publier l’application sur un compte store qui n’est pas au nom de la salle.</li></ul>
+    <h2 class="post__h2" id="ce-qui-fait-varier-le-budget"><span class="post__hn">09</span>Ce qui fait varier le budget</h2>
+    <p>Le coût suit le périmètre, pas un tarif standard. Les facteurs déterminants :</p>
+    <ul class="post__ul"><li>le nombre de formules et la complexité des règles d’abonnement ;</li><li>la réservation avec capacité, liste d’attente et pénalités ;</li><li>le contrôle d’accès et le matériel à l’entrée ;</li><li>la boutique, son stock et sa livraison ;</li><li>le nombre de salles et de langues.</li></ul>
+    <p>Codex établit un devis détaillé après l’atelier de cadrage. Pour arriver avec vos formules et vos règles déjà écrites, appuyez-vous sur l’article <a href="/en/blog/cahier-des-charges-projet-digital">rédiger un cahier des charges</a>.</p>
+    <h2 class="post__h2" id="les-etapes-avec-codex"><span class="post__hn">10</span>Les étapes avec Codex</h2>
+    <ol class="post__ol"><li><span>01</span><div><strong>Découverte.</strong> Un atelier sur vos formules, votre planning et vos coachs. Vous repartez avec un périmètre clair, un calendrier de réalisation et un devis détaillé.</div></li><li><span>02</span><div><strong>Conception.</strong> Parcours de l’adhérent, outil du coach et écrans du back-office. Chaque écran est validé avant le code.</div></li><li><span>03</span><div><strong>Développement.</strong> Des sprints courts avec une démo à chaque étape, et des tests sur les cas sensibles : cours complets, abonnements expirés, paiements.</div></li><li><span>04</span><div><strong>Lancement et suivi.</strong> Publication sur les stores au nom de la salle, formation de l’accueil et des coachs, puis maintenance et évolutions.</div></li></ol>
+    <p>À lire aussi : <a href="/en/blog/plateforme-elearning">créer une plateforme e-learning</a>, utile pour proposer aussi des séances en vidéo, et <a href="/en/blog/application-services-france">créer une application de services en France</a>.</p>
+    <h2 class="post__h2" id="construire-ce-produit-avec-codex"><span class="post__hn">11</span>Construire ce produit avec Codex</h2>
+    <p>Codex est un studio logiciel fondé à Marseille en 2014. Plus de 15 ingénieurs et designers y conçoivent des produits en français, en arabe et en anglais, et l’équipe a édité plus de 20 produits en interne. Le code source, les comptes et les données restent à votre nom. Voir <a href="/en/realisations">les projets publiés</a> et <a href="/en/attestations-bonne-execution">les attestations de bonne exécution</a>.</p>
+    <p>Aucun bureau n’est ajouté sur place. Le travail part de Marseille (Rue de la République, 13002), de Doha (Building No. 157, Street No. 301, Zone 69, PO Box 8388) et de Marseille (Rue de la République, 13002).</p>
+    <aside class="post__tip"><span class="post__tip-k"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg>Le conseil Codex</span><p>Codex peut cadrer ce produit avec vous. <a href="/en/contact">La page contact</a>, ou WhatsApp <a href="https://wa.me/33605825051">+33 6 05 82 50 51</a>.</p></aside>
+    <a class="post__srv" href="/en/services/developpement-application-mobile-france" data-cursor="Voir">
+      <span class="post__srv-illo"><svg class="illo" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="88" y="12" width="64" height="136" rx="12"/>
+    <rect x="110" y="18" width="20" height="5" rx="2.5"/>
+    <rect x="98" y="34" width="44" height="30" rx="4" opacity=".6"/>
+    <path d="M98 74h44M98 82h30M98 96h44M98 104h24" opacity=".45"/>
+    <circle class="a" cx="134" cy="128" r="8"/>
+    <rect x="40" y="40" width="34" height="58" rx="8" opacity=".25"/>
+    <rect x="166" y="54" width="34" height="58" rx="8" opacity=".25"/></svg></span>
+      <span class="post__srv-txt"><small>Notre service</small><strong>Application mobile</strong><span>Applications iOS et Android natives ou multiplateformes, de l’idée à la publication.</span></span>
+      <span class="post__srv-arr"><svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></span>
+    </a>
+  </article>
+</div>
+
+<section class="faq section wrap" id="faq">
+  <div class="faq__head">
+    <p class="eyebrow"><span class="dot"></span>FAQ</p>
+    <h2 class="h2" data-split>Vos questions sur <em>ce sujet</em></h2>
+    <p class="muted">Une autre question ? <a class="link" href="/fr/contact">Écrivez-nous</a>, nous répondons rapidement.</p>
+  </div>
+  <div class="faq__list">
+    <details class="qa" data-reveal><summary><h3>Comment gérer la capacité des cours collectifs ?</h3><span class="qa__icon" aria-hidden="true"></span></summary><div class="qa__a"><p>Chaque cours a un nombre de places défini dans le back-office. Une fois complet, les adhérents passent en liste d’attente et récupèrent les places libérées par une annulation.</p></div></details><details class="qa" data-reveal><summary><h3>Le QR code à l’entrée est-il indispensable ?</h3><span class="qa__icon" aria-hidden="true"></span></summary><div class="qa__a"><p>Non, c’est une option. Il devient utile quand l’affluence rend le contrôle manuel difficile, et il doit prévoir un mode de secours si la connexion tombe.</p></div></details><details class="qa" data-reveal><summary><h3>Peut-on vendre des produits dans l’application ?</h3><span class="qa__icon" aria-hidden="true"></span></summary><div class="qa__a"><p>Oui. Une boutique intégrée présente les compléments et l’équipement par collection, avec retrait à l’accueil ou livraison, et son stock se gère dans le back-office.</p></div></details><details class="qa" data-reveal><summary><h3>Combien coûte une application de salle de sport ?</h3><span class="qa__icon" aria-hidden="true"></span></summary><div class="qa__a"><p>Le prix dépend des formules d’abonnement, de la réservation, du contrôle d’accès, de la boutique et du nombre de salles. Codex le précise dans un devis détaillé après l’atelier de cadrage.</p></div></details><details class="qa" data-reveal><summary><h3>Codex peut-il développer ce type d’application ?</h3><span class="qa__icon" aria-hidden="true"></span></summary><div class="qa__a"><p>Oui. Codex a réalisé l’application LEVVA GYM, avec sa boutique intégrée. Pour votre salle, les abonnements, le planning et le back-office se conçoivent sur mesure, avec un code qui reste à votre nom.</p></div></details>
+  </div>
+</section>
+<section class="section wrap post__more">
+  <div class="sec-head sec-head--row">
+    <div><p class="eyebrow"><span class="dot"></span>À lire aussi</p><h2 class="h2" data-split>Continuer la <em>lecture</em></h2></div>
+    <a class="link link--arrow" href="/fr/blog">Tous les articles <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></a>
+  </div>
+  <div class="bgrid">
+    <a class="bcard" href="/fr/blog/application-flexy-france" data-cat="mobile" data-reveal data-cursor="Lire">
+      <div class="bcard__media"><div class="bcover bcover--mobile " aria-hidden="true"><span class="bcover__grid"></span><span class="bcover__n">14</span><span class="bcover__illo"><svg class="illo" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="88" y="12" width="64" height="136" rx="12"/>
+    <rect x="110" y="18" width="20" height="5" rx="2.5"/>
+    <rect x="98" y="34" width="44" height="30" rx="4" opacity=".6"/>
+    <path d="M98 74h44M98 82h30M98 96h44M98 104h24" opacity=".45"/>
+    <circle class="a" cx="134" cy="128" r="8"/>
+    <rect x="40" y="40" width="34" height="58" rx="8" opacity=".25"/>
+    <rect x="166" y="54" width="34" height="58" rx="8" opacity=".25"/></svg></span><span class="bcover__mk"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></span></div></div>
+      <span class="bmeta"><span class="bchip">Mobile</span><time datetime="2026-10-26">26 octobre 2026</time><span>7 min</span></span>
+      <h3 class="bcard__t">Créer une application Flexy en France : le guide complet</h3>
+      <p class="bcard__x">Une application Flexy vend du crédit mobile à travers un réseau de revendeurs. Avant d’écrire une ligne de code, il faut cadrer le fournisseur de crédit, les soldes, les commissions et le back-office. Voici le guide complet.</p>
+      <span class="link link--arrow bcard__go">Lire l’article <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></span>
+    </a>
+    <a class="bcard" href="/fr/blog/comparaison-10-applications-mobiles" data-cat="mobile" data-reveal data-cursor="Lire">
+      <div class="bcard__media"><div class="bcover bcover--mobile " aria-hidden="true"><span class="bcover__grid"></span><span class="bcover__n">16</span><span class="bcover__illo"><svg class="illo" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="88" y="12" width="64" height="136" rx="12"/>
+    <rect x="110" y="18" width="20" height="5" rx="2.5"/>
+    <rect x="98" y="34" width="44" height="30" rx="4" opacity=".6"/>
+    <path d="M98 74h44M98 82h30M98 96h44M98 104h24" opacity=".45"/>
+    <circle class="a" cx="134" cy="128" r="8"/>
+    <rect x="40" y="40" width="34" height="58" rx="8" opacity=".25"/>
+    <rect x="166" y="54" width="34" height="58" rx="8" opacity=".25"/></svg></span><span class="bcover__mk"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></span></div></div>
+      <span class="bmeta"><span class="bchip">Mobile</span><time datetime="2026-10-26">26 octobre 2026</time><span>7 min</span></span>
+      <h3 class="bcard__t">10 applications mobiles qui valent d’être créées</h3>
+      <p class="bcard__x">Ce n’est pas un classement d’applications existantes, mais une sélection de produits qui méritent d’être construits, avec pour chacun le public servi et les fonctions clés. Chaque idée renvoie vers un guide complet pour aller plus loin.</p>
+      <span class="link link--arrow bcard__go">Lire l’article <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></span>
+    </a>
+    <a class="bcard" href="/fr/blog/applications-investir-qatar" data-cat="mobile" data-reveal data-cursor="Lire">
+      <div class="bcard__media"><div class="bcover bcover--mobile " aria-hidden="true"><span class="bcover__grid"></span><span class="bcover__n">17</span><span class="bcover__illo"><svg class="illo" viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="88" y="12" width="64" height="136" rx="12"/>
+    <rect x="110" y="18" width="20" height="5" rx="2.5"/>
+    <rect x="98" y="34" width="44" height="30" rx="4" opacity=".6"/>
+    <path d="M98 74h44M98 82h30M98 96h44M98 104h24" opacity=".45"/>
+    <circle class="a" cx="134" cy="128" r="8"/>
+    <rect x="40" y="40" width="34" height="58" rx="8" opacity=".25"/>
+    <rect x="166" y="54" width="34" height="58" rx="8" opacity=".25"/></svg></span><span class="bcover__mk"><svg class="mark " viewBox="-4 0 933 957" aria-hidden="true"><use href="#mk"/></svg></span></div></div>
+      <span class="bmeta"><span class="bchip">Mobile</span><time datetime="2026-10-26">26 octobre 2026</time><span>8 min</span></span>
+      <h3 class="bcard__t">Applications à créer et dans lesquelles investir au Qatar</h3>
+      <p class="bcard__x">Livraison, réservation, immobilier, services à domicile, formation, fidélité, outils de terrain : voici les familles d’applications qui méritent d’être étudiées au Qatar. Pour chacune, ce guide explique les attentes locales, le paiement, les données et la façon de lancer une première version.</p>
+      <span class="link link--arrow bcard__go">Lire l’article <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></span>
+    </a></div>
+</section>
+
+</main>
+
+<footer class="foot" data-theme="dark">
+  <div class="foot__top"><section class="foot__cta wrap">
+    <p class="eyebrow"><span class="dot"></span>Un projet en tête ?</p>
+    <a class="foot__big" href="/fr/contact" data-cursor="Écrire">
+      <span class="split" data-split>Parlons de votre</span>
+      <span class="split" data-split><em>projet</em><span class="foot__arrow"><svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg></span></span>
+    </a>
+    <div class="foot__actions">
+      <a class="btn btn--accent" href="/fr/contact" data-magnetic><span>Demander un devis</span></a>
+      <a class="btn btn--ghost" href="https://wa.me/33605825051" target="_blank" rel="noopener" data-magnetic><span>WhatsApp</span></a>
+    </div>
+  </section></div>
+  <div class="foot__base" data-foot-base>
+  <div class="foot__grid wrap">
+    <div>
+      <h2 class="foot__h">Services</h2>
+      <ul><li><a href="/fr/services/logiciel-sur-mesure-france">Logiciel sur mesure</a></li><li><a href="/fr/services/creation-site-web-marseille">Création de site web</a></li><li><a href="/fr/services/developpement-application-mobile-france">Application mobile</a></li><li><a href="/fr/services/cloud-devops-france">Cloud & DevOps</a></li><li><a href="/fr/services/data-analytics-france">Data & Analytics</a></li><li><a href="/fr/services/cybersecurite-france">Cybersécurité</a></li><li><a href="/fr/services/marketing-digital-seo-france">Marketing digital & SEO</a></li><li><a href="/fr/services/design-ui-ux-france">Design graphique & UI/UX</a></li></ul>
+    </div>
+    <div>
+      <h2 class="foot__h">Codex</h2>
+      <ul>
+        <li><a href="/fr/agence">L’agence</a></li>
+        <li><a href="/fr/agence#equipe">L’équipe</a></li>
+        <li><a href="/fr/evenements">Salons &amp; événements</a></li>
+        <li><a href="/fr/attestations-bonne-execution">Attestations de bonne exécution</a></li>
+        <li><a href="/fr/realisations">Projets récents</a></li>
+        <li><a href="/fr/blog">Blog</a></li>
+        <li><a href="/fr#faq">Questions fréquentes</a></li>
+        <li><a href="/fr/contact">Contact</a></li>
+        <li><a href="https://www.facebook.com/CodexEurope" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com/codex_europe/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot__h">Contact</h2>
+      <ul>
+        <li><a href="mailto:contact@codexeurope.com">contact@codexeurope.com</a></li>
+        <li><a href="https://wa.me/33605825051" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot__h">Bureaux</h2>
+      <div class="offices"><div class="office"><span class="office__tag">Siège</span><strong>Marseille, France</strong><address>Rue de la République<br>13002 Marseille</address><a class="office__tel" href="tel:+33605825051">+33 6 05 82 50 51</a></div><div class="office"><span class="office__tag">Bureau Qatar</span><strong>Doha, Qatar</strong><address>Building No. 157, Street No. 301, Zone 69<br>PO Box 8388, Doha</address><a class="office__tel" href="tel:+97450665151">+974 5066 5151</a></div></div>
+    </div>
+  </div>
+  <div class="foot__word wrap" aria-hidden="true" data-word>
+    <div class="foot__word-in"><span><b>c</b></span><span><b>o</b></span><span><b>d</b></span><span><b>e</b></span><span><b>x</b></span></div>
+  </div>
+  <div class="foot__badges wrap" role="group" aria-label="Références et certifications">
+    <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="badge-sharpen" color-interpolation-filters="sRGB" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur in="SourceGraphic" stdDeviation="0.4" result="b"/><feComposite in="SourceGraphic" in2="b" operator="arithmetic" k1="0" k2="1.5" k3="-0.5" k4="0"/></filter></svg>
+    <div class="foot__badge-row">
+    <a class="foot__badge foot__badge--gcp" href="https://cloud.google.com/find-a-partner/partner/sarl-groupe-codex" target="_blank" rel="noopener" aria-label="Google Cloud Partner">
+      <img src="/assets/img/badges/google-cloud.svg" alt="" width="92" height="16">
+      <span>Partner</span>
+    </a>
+    <a class="foot__badge foot__badge--aws" href="https://aws.amazon.com/partners/" target="_blank" rel="noopener" aria-label="AWS Partner">
+      <img src="/assets/img/badges/aws.png" alt="" width="54" height="33">
+      <span>Partner</span>
+    </a>
+    <a class="foot__badge foot__badge--tb" href="https://techbehemoths.com/company/codex-algeria" target="_blank" rel="noopener" data-techbehemoths-verification>
+      <img src="https://cdn.techbehemoths.com/public/static/validation/tb-verified-logo.svg" alt="TechBehemoths Verification" width="148" height="36">
+    </a>
+    <a class="foot__badge foot__badge--img foot__badge--sortlist" href="https://www.sortlist.com/agency/codex" target="_blank" rel="noopener">
+      <img class="for-dark" src="https://core.sortlist.com/_/apps/core/images/badges-fr/badge-flag-white-dark-xl.svg" alt="Codex sur Sortlist" width="156" height="44">
+      <img class="for-light" src="https://core.sortlist.com/_/apps/core/images/badges-fr/badge-flag-black-light-xl.svg" alt="" width="156" height="44">
+    </a>
+    <a class="foot__badge foot__badge--img foot__badge--clutch" href="https://clutch.co/profile/codex-4" target="_blank" rel="noopener">
+      <img class="for-dark" src="/assets/img/badges/clutch.svg" alt="Clutch" width="98" height="28">
+      <img class="for-light" src="/assets/img/badges/clutch-light.svg" alt="" width="98" height="28">
+    </a>
+    <a class="foot__badge foot__badge--img foot__badge--cb" href="https://www.crunchbase.com/organization/codex-ef58" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/crunchbase.svg" alt="Crunchbase" width="119" height="18">
+    </a>
+    </div>
+    <div class="foot__badge-row">
+    <a class="foot__badge foot__badge--img foot__badge--mf" href="https://themanifest.com/company/codex-4" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/manifest.svg" alt="The Manifest" width="79" height="40">
+    </a>
+    <a class="foot__badge foot__badge--img foot__badge--g2" href="https://www.g2.com/products/codex-algeria/reviews" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/g2.svg" alt="G2" width="44" height="44">
+    </a>
+    <a class="foot__badge foot__badge--ensun" href="https://ensun.io/company/codex-6af1af8b4b49fbf27bde1b3b-managed" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/ensun.svg" alt="ensun" width="96" height="18">
+    </a>
+    <a class="foot__badge foot__badge--elio" href="https://elioplus.com/profiles/channel-partners/194499/codex" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/elioplus.svg" alt="Elioplus" width="52" height="22">
+    </a>
+    <a class="foot__badge foot__badge--gf" href="https://www.goodfirms.co/company/codex-algeria" target="_blank" rel="noopener">
+      <img src="/assets/img/badges/goodfirms.svg" alt="GoodFirms" width="160" height="31">
+    </a>
+    <div class="foot__dr for-dark" data-designrush-widget data-agency-id="133170" data-style="dark" aria-label="DesignRush agency reviews section"></div>
+    <div class="foot__dr for-light" data-designrush-widget data-agency-id="133170" data-style="light" aria-label="DesignRush agency reviews section"></div>
+    <noscript><a href="https://www.designrush.com/agency/profile/codex#reviews" target="_blank" rel="noopener">DesignRush</a></noscript>
+    <script src="https://www.designrush.com/topbest/js/widgets/agency-reviews.js"></script>
+    <script src="https://www.lafabriquedunet.com/fr/agences/badge/codex/badge.js?color=outline" defer></script>
+    </div>
+    <div class="foot__seals">
+      <span class="foot__badge foot__badge--img foot__badge--play">
+        <img src="/assets/img/badges/play-academy.png" alt="Google Play Academy Store Listing Certificate" width="72" height="72">
+      </span>
+      <span class="foot__badge foot__badge--img foot__badge--iso">
+        <img src="/assets/img/badges/iso.png" alt="ISO 9001" width="72" height="72">
+      </span>
+    </div>
+  </div>
+  <div class="foot__bar wrap">
+    <span>© 2014–2026 SARL Groupe Codex. Tous droits réservés.</span>
+    <span>Studio logiciel à Marseille, France</span>
+    <a href="#top" data-top>Haut de page ↑</a>
+  </div>
+  </div>
+</footer>
+<script src="/assets/js/vendor/gsap.min.js" defer></script>
+<script src="/assets/js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/js/vendor/lenis.min.js" defer></script>
+<script src="/assets/js/main.js?v=LRVUdZf1" defer></script>
+<script>
+  !function(e){"use strict";var a=e&&e.namespace;if(a&&e.profileId&&e.cdn){var r=window[a];if(r&&Array.isArray(r)||(r=window[a]=[]),!r.initialized&&!r.loaded)if(r._loaded)console&&console.warn("[Radar] Duplicate initialization attempted");else{r._loaded=!0;["track","page","identify","group","alias","ready","debug","on","off","once","trackClick","trackSubmit","trackLink","trackForm","pageview","screen","reset","register","setAnonymousId","addSourceMiddleware","addIntegrationMiddleware","addDestinationMiddleware"].forEach((function(e){var i;r[e]=(i=e,function(){var e=window[a];if(e.initialized)return e[i].apply(e,arguments);var r=[].slice.call(arguments);return r.unshift(i),e.push(r),e})})),r.bootstrap=function(){var a=document.createElement("script");a.async=!0,a.type="text/javascript",a.id="radar_",a.dataset.settings=JSON.stringify(e),a.src="https://"+e.cdn+"/releases/latest/radar.min.js";var r=document.scripts[0];r.parentNode.insertBefore(a,r)},r.bootstrap()}}else"undefined"!=typeof console&&console.error("[Radar] Configuration incomplete")}({
+    "cdn": "collector.sortlist.com",
+    "apiEndpoint": "radar.sortlist.com",
+    "profileId": "ro566b0CEvo",
+    "namespace": "SortlistRadar",
+    features: {
+      sessionTracking: true,
+      formTracking: true,
+      clickTracking: true,
+      downloadTracking: true,
+    },
+  });
+</script>
+</body>
+</html>

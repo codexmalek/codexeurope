@@ -1,0 +1,110 @@
+[
+  {
+    "base": "axxam-business-hub",
+    "client": "axxam-business-hub",
+    "project": "",
+    "year": "",
+    "width": 1400,
+    "height": 1972,
+    "pdf": false
+  },
+  {
+    "base": "bita-equipement",
+    "client": "bita-equipement",
+    "project": "",
+    "year": "",
+    "width": 847,
+    "height": 572,
+    "pdf": false
+  },
+  {
+    "base": "chocran",
+    "client": "chocran",
+    "project": "",
+    "year": "",
+    "width": 462,
+    "height": 812,
+    "pdf": false
+  },
+  {
+    "base": "farben-malakoot",
+    "client": "farben-malakoot",
+    "project": "",
+    "year": "",
+    "width": 592,
+    "height": 801,
+    "pdf": false
+  },
+  {
+    "base": "hak-el-bac",
+    "client": "hak-el-bac",
+    "project": "",
+    "year": "",
+    "width": 885,
+    "height": 792,
+    "pdf": false
+  },
+  {
+    "base": "heronys",
+    "client": "heronys",
+    "project": "",
+    "year": "",
+    "width": 552,
+    "height": 736,
+    "pdf": false
+  },
+  {
+    "base": "huissiers-de-justice",
+    "client": "huissiers-de-justice",
+    "project": "",
+    "year": "",
+    "width": 667,
+    "height": 816,
+    "pdf": false
+  },
+  {
+    "base": "khabar-press",
+    "client": "khabar-press",
+    "project": "",
+    "year": "",
+    "width": 1241,
+    "height": 1754,
+    "pdf": true
+  },
+  {
+    "base": "kmondi-shop",
+    "client": "kmondi-shop",
+    "project": "",
+    "year": "",
+    "width": 522,
+    "height": 715,
+    "pdf": false
+  },
+  {
+    "base": "mpi",
+    "client": "mpi",
+    "project": "",
+    "year": "",
+    "width": 1400,
+    "height": 2004,
+    "pdf": false
+  },
+  {
+    "base": "sijour-shop",
+    "client": "sijour-shop",
+    "project": "",
+    "year": "",
+    "width": 597,
+    "height": 801,
+    "pdf": false
+  },
+  {
+    "base": "youth-idea",
+    "client": "youth-idea",
+    "project": "",
+    "year": "",
+    "width": 1400,
+    "height": 1966,
+    "pdf": false
+  }
+]

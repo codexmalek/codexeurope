@@ -1,0 +1,86 @@
+# Apache / cPanel hosting (use instead of _redirects)
+Options -MultiViews
+RewriteEngine On
+
+# Force HTTPS + no www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://codexeurope.com%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^$ /fr [L,R=301]
+RewriteRule ^index\.php$ /fr [L,R=301,NC]
+RewriteRule ^contact_us\.php$ /fr/contact [L,R=301,NC]
+RewriteRule ^contact\.php$ /fr/contact [L,R=301,NC]
+RewriteRule ^about\.php$ /fr/agence [L,R=301,NC]
+RewriteRule ^portfolio\.php$ /fr/realisations [L,R=301,NC]
+RewriteRule ^services\.php$ /fr/services [L,R=301,NC]
+
+# Old site (the 2026 SPA) → current pages. New URLs are not in this list.
+# Locale-less paths land on French, matching the old site.
+RewriteRule ^(fr|en|ar)/devis(\.html)?/?$ /$1/contact [R=301,L,QSA]
+RewriteRule ^devis(\.html)?/?$ /fr/contact [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/(terms|privacy)(\.html)?/?$ /$1/contact [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/legal/(terms|privacy)(\.html)?/?$ /$1/contact [R=301,L,QSA]
+RewriteRule ^(terms|privacy)(\.html)?/?$ /fr/contact [R=301,L,QSA]
+RewriteRule ^legal/.+ /fr/contact [R=301,L,QSA]
+
+RewriteRule ^(fr|en|ar)/services/application-mobile-france(\.html)?/?$ /$1/services/developpement-application-mobile-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/services/developpement-logiciel-france(\.html)?/?$ /$1/services/logiciel-sur-mesure-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/services/agence-digitale-marseille(\.html)?/?$ /$1/agence [R=301,L,QSA]
+RewriteRule ^services/application-mobile-france(\.html)?/?$ /fr/services/developpement-application-mobile-france [R=301,L,QSA]
+RewriteRule ^services/developpement-logiciel-france(\.html)?/?$ /fr/services/logiciel-sur-mesure-france [R=301,L,QSA]
+RewriteRule ^services/agence-digitale-marseille(\.html)?/?$ /fr/agence [R=301,L,QSA]
+RewriteRule ^services/(creation-site-web-marseille|cloud-devops-france|cybersecurite-france)(\.html)?/?$ /fr/services/$1 [R=301,L,QSA]
+
+RewriteRule ^(fr|en|ar)/villes/(marseille|oran|constantine)(\.html)?/?$ /$1/blog/agence-web-marseille-oran-constantine [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/villes/[^/]+(\.html)?/?$ /$1/agence [R=301,L,QSA]
+RewriteRule ^villes/(marseille|oran|constantine)(\.html)?/?$ /fr/blog/agence-web-marseille-oran-constantine [R=301,L,QSA]
+RewriteRule ^villes/[^/]+(\.html)?/?$ /fr/agence [R=301,L,QSA]
+
+RewriteRule ^(fr|en|ar)/projects/?$ /$1/realisations [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/projects/skoda-factory(\.html)?/?$ /$1/realisations/skoda-imdes [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/projects/(az-fulfillment|ondefoc)(\.html)?/?$ /$1/realisations/$2 [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/projects/[^/]+(\.html)?/?$ /$1/realisations [R=301,L,QSA]
+RewriteRule ^projects/?$ /fr/realisations [R=301,L,QSA]
+RewriteRule ^projects/skoda-factory(\.html)?/?$ /fr/realisations/skoda-imdes [R=301,L,QSA]
+RewriteRule ^projects/(az-fulfillment|ondefoc)(\.html)?/?$ /fr/realisations/$1 [R=301,L,QSA]
+RewriteRule ^projects/.+ /fr/realisations [R=301,L,QSA]
+
+RewriteRule ^(fr|en|ar)/blog/(creer-application-mobile-france-guide|delai-mvp-application-france|idea-to-mvp-marseille)(\.html)?/?$ /$1/blog/lancer-application-mobile-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/creer-site-web-professionnel-marseille-2026(\.html)?/?$ /$1/blog/prix-site-web-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/(logiciel-sur-mesure-pme-france|build-vs-buy-france)(\.html)?/?$ /$1/blog/logiciel-sur-mesure-ou-solution-du-marche [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/brief-projet-digital-france(\.html)?/?$ /$1/blog/cahier-des-charges-projet-digital [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/(maintenance-application-france-pourquoi|chargily-paiements-apps-france)(\.html)?/?$ /$1/services/developpement-application-mobile-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/etudes-de-cas-codex-france-2026(\.html)?/?$ /$1/realisations [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/studio-logiciel-vs-agence-web-france(\.html)?/?$ /$1/agence [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/comparatif-agences-digitales-marseille-2026(\.html)?/?$ /$1/blog/top-agences-developpement-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/cout-developpement-application-france-2026(\.html)?/?$ /$1/blog/agence-developpement-application-mobile-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/(choose-software-partner-france|agence-vs-freelance-france)(\.html)?/?$ /$1/blog/meilleure-agence-developpement-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/(react-native-france-startups|react-native-vs-flutter-france|offline-first-mobile-apps)(\.html)?/?$ /$1/blog/application-mobile-native-ou-multiplateforme [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/(cloud-migration-north-africa|ci-cd-marseille-teams)(\.html)?/?$ /$1/services/cloud-devops-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/cybersecurity-sme-france(\.html)?/?$ /$1/services/cybersecurite-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/bilingual-product-ux-france(\.html)?/?$ /$1/services/design-ui-ux-france [R=301,L,QSA]
+RewriteRule ^(fr|en|ar)/blog/api-integrations-france(\.html)?/?$ /$1/services/logiciel-sur-mesure-france [R=301,L,QSA]
+RewriteRule ^blog/?$ /fr/blog [R=301,L,QSA]
+RewriteRule ^blog/(.+)$ /fr/blog/$1 [R=301,L,QSA]
+
+# Clean URLs: /fr/contact → fr/contact.html, and drop trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [L,R=301]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff2|js|css|svg|png|jpg|webp|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml text/plain
+</IfModule>
